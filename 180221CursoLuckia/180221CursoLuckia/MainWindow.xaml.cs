@@ -170,6 +170,11 @@ namespace _180221CursoLuckia
             division = false;
         }
 
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
         private void Btn_resta_Click(object sender, RoutedEventArgs e)
         {
             resAcum = Convert.ToDouble(textBoxResultado.Text);
@@ -202,6 +207,7 @@ namespace _180221CursoLuckia
 
         private void Btn_resultado_Click(object sender, RoutedEventArgs e)
         {
+            textbox1.Text += "su";
             if (suma == true)
             {
                 resFinal = resAcum + Convert.ToDouble(textBoxResultado.Text);

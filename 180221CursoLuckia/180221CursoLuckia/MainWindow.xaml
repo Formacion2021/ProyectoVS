@@ -25,5 +25,6 @@
         <Button x:Name="btn_resultado" Content="=" HorizontalAlignment="Left" Margin="154,293,0,0" VerticalAlignment="Top" Width="94" Height="40" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" Click="Btn_resultado_Click"/>
         <Button x:Name="btn_clean" Content="C" HorizontalAlignment="Left" Margin="51,293,0,0" VerticalAlignment="Top" Width="91" Height="40" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" Click="Btn_clean_Click"/>
         <Button x:Name="btn_decimal" Content="." HorizontalAlignment="Left" Margin="154,241,0,0" VerticalAlignment="Top" Width="40" Height="40" FontFamily="Trebuchet MS" FontSize="24" FontWeight="Bold" Click="Btn_decimal_Click"/>
+        <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="40" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="40" Margin="51,241,0,0" TextChanged="TextBox_TextChanged"/>
     </Grid>
 </Window>
