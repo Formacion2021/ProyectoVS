@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:_180221CursoLuckia"
         mc:Ignorable="d"
         Title="Version" Height="240" Width="400">
-    <Grid Background="#FFB4B4B4">
-        <Label Content="Versión 1.0" HorizontalAlignment="Left" Margin="154,65,0,0" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="16"/>
-        <Button Content="Cerrar" HorizontalAlignment="Left" Margin="154,167,0,0" VerticalAlignment="Top" Width="89" Click="Button_Click"/>
-        <Label Content="©2021" HorizontalAlignment="Left" Margin="172,128,0,0" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontWeight="Bold"/>
+    <Grid Background="#FF460303">
+        <Label Content="Versión 1.0" HorizontalAlignment="Left" Margin="154,65,0,0" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontSize="16" Foreground="White"/>
+        <Button Content="Cerrar" HorizontalAlignment="Left" Margin="154,167,0,0" VerticalAlignment="Top" Width="89" Click="Button_Click" Background="Black" FontFamily="Trebuchet MS" Foreground="#FFB77A09"/>
+        <Label Content="©2021" HorizontalAlignment="Left" Margin="172,128,0,0" VerticalAlignment="Top" FontFamily="Trebuchet MS" FontWeight="Bold" Foreground="White"/>
 
     </Grid>
 </Window>
