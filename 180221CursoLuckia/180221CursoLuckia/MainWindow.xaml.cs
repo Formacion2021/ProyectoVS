@@ -207,7 +207,6 @@ namespace _180221CursoLuckia
 
         private void Btn_resultado_Click(object sender, RoutedEventArgs e)
         {
-            textbox1.Text += "suuuuu";
             if (suma == true)
             {
                 resFinal = resAcum + Convert.ToDouble(textBoxResultado.Text);
